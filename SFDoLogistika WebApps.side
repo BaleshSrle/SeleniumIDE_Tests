@@ -2130,6 +2130,486 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "48145eb7-dce6-4835-a186-b93247c28930",
+    "name": "LKR_10_Vodeni-led",
+    "commands": [{
+      "id": "32e2d714-afda-452b-a4fe-eded6602d6cc",
+      "comment": "",
+      "command": "open",
+      "target": "transport_lkr/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8af4c04e-e22a-48a9-a6ec-14b5e81bece7",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a76ad79-71f7-4ae0-b8a9-85be1a144412",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return a=document.getElementById(\"ts\")",
+      "targets": [],
+      "value": "SpoljnaTemp"
+    }, {
+      "id": "db9c3cc9-fbd5-4b5e-8c97-16adfd5064a6",
+      "comment": "",
+      "command": "if",
+      "target": "${SpoljnaTemp}!=null",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd013ed9-92c6-4acd-a4dc-a20ace81054a",
+      "comment": "",
+      "command": "select",
+      "target": "id=vrs",
+      "targets": [
+        ["id=vrs", "id"],
+        ["css=#vrs", "css:finder"],
+        ["xpath=//select[@id='vrs']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "Vodeni led"
+    }, {
+      "id": "42c5f4f7-07f3-4281-bed2-d05b309fa526",
+      "comment": "",
+      "command": "click",
+      "target": "id=vrs",
+      "targets": [],
+      "value": "Vodeni led"
+    }, {
+      "id": "27fa7de6-f490-4b50-aac2-88c38b80f288",
+      "comment": "",
+      "command": "select",
+      "target": "id=gd",
+      "targets": [
+        ["id=gd", "id"],
+        ["css=#gd", "css:finder"],
+        ["xpath=//select[@id='gd']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/select", "xpath:position"]
+      ],
+      "value": "Ljeto"
+    }, {
+      "id": "8697a1cd-8d04-408e-9396-e14008eb563a",
+      "comment": "",
+      "command": "click",
+      "target": "id=gd",
+      "targets": [],
+      "value": "Ljeto"
+    }, {
+      "id": "bd471176-fe06-4b1a-ac4f-bda6256367be",
+      "comment": "",
+      "command": "type",
+      "target": "id=mr",
+      "targets": [
+        ["id=mr", "id"],
+        ["css=#mr", "css:finder"],
+        ["xpath=//input[@id='mr']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "5b025d8d-2cec-407a-be5e-52df91f732e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=tp",
+      "targets": [
+        ["id=tp", "id"],
+        ["css=#tp", "css:finder"],
+        ["xpath=//input[@id='tp']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "24"
+    }, {
+      "id": "90539207-2d15-4f18-a8cb-bb07b6a9d833",
+      "comment": "",
+      "command": "type",
+      "target": "id=ts",
+      "targets": [
+        ["id=ts", "id"],
+        ["css=#ts", "css:finder"],
+        ["xpath=//input[@id='ts']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "-51"
+    }, {
+      "id": "7893e9e5-b389-428c-93fe-6cf141eaf976",
+      "comment": "",
+      "command": "type",
+      "target": "id=tpr",
+      "targets": [
+        ["id=tpr", "id"],
+        ["css=#tpr", "css:finder"],
+        ["xpath=//input[@id='tpr']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25"
+    }, {
+      "id": "87962001-1468-43aa-8a13-966b5bddb71c",
+      "comment": "",
+      "command": "select",
+      "target": "id=str",
+      "targets": [
+        ["id=str", "id"],
+        ["css=#str", "css:finder"],
+        ["xpath=//select[@id='str']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": "Svježe voće"
+    }, {
+      "id": "fce2d34d-9c8a-4153-9067-22104c19bb69",
+      "comment": "",
+      "command": "click",
+      "target": "id=str",
+      "targets": [],
+      "value": "Svježe voće"
+    }, {
+      "id": "f184dc43-196b-4596-a8c1-dafe1dcde349",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5242b7d-796b-45fe-a218-6affcec3af3e",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=vrs",
+      "targets": [],
+      "value": "80"
+    }, {
+      "id": "0c2cb480-5605-4ba3-b56f-47c57238db7b",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=gd",
+      "targets": [],
+      "value": "0.06"
+    }, {
+      "id": "320eeb92-a836-4c22-a8c7-00c2d67fac86",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=mr",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "7c479b08-97a9-41fd-b9f5-1af65fc4650f",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=tp",
+      "targets": [],
+      "value": "24"
+    }, {
+      "id": "a68f82c7-5ec5-4622-a28a-7ff7accbd075",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=ts",
+      "targets": [
+        ["id=ts", "id"],
+        ["css=#ts", "css:finder"],
+        ["xpath=//input[@id='ts']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "-51"
+    }, {
+      "id": "778ec2e2-ed82-46ad-b567-7f6fd0442b0b",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=tpr",
+      "targets": [
+        ["id=tpr", "id"],
+        ["css=#tpr", "css:finder"],
+        ["xpath=//input[@id='tpr']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25"
+    }, {
+      "id": "0cfca83e-f09f-41ee-9f83-a7dfc52234c8",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=str",
+      "targets": [
+        ["id=str", "id"],
+        ["css=#str", "css:finder"],
+        ["xpath=//select[@id='str']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": "0.92"
+    }, {
+      "id": "189b8875-367a-41c5-b4e5-08a1c5172d99",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[8]/td/input",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
+        ["xpath=//tr[8]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33c9708-c1f3-47ec-9c91-6409f1edaae3",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf75d29e-a8b1-4abf-8f56-53bd836904c6",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb19acad-603a-416f-83d6-8d88150cc228",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Unos nije dozvoljen.\\nDozvoljena vrednost je u rasponu između -50 i +50.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0bae9000-f304-4ac8-ba71-75fc18b1d64b",
+    "name": "LKR_11_Vodeni-led",
+    "commands": [{
+      "id": "ffcbc535-b967-4658-ad88-d0b3c776215b",
+      "comment": "",
+      "command": "open",
+      "target": "transport_lkr/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa77cd53-df81-433b-94a4-92c90f38ff45",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ceaaf392-fe57-4eda-804d-5e074aa0a7a6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return a=document.getElementById(\"ts\")",
+      "targets": [],
+      "value": "SpoljnaTemp"
+    }, {
+      "id": "18d699fd-4a66-4aa6-b559-5c11d758cf74",
+      "comment": "",
+      "command": "if",
+      "target": "${SpoljnaTemp}!=null",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afd856ea-31d3-42e8-92b8-8f860be8b82d",
+      "comment": "",
+      "command": "select",
+      "target": "id=vrs",
+      "targets": [
+        ["id=vrs", "id"],
+        ["css=#vrs", "css:finder"],
+        ["xpath=//select[@id='vrs']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "Vodeni led"
+    }, {
+      "id": "ec75d212-d8b2-4988-a706-6a1f7fb6ef75",
+      "comment": "",
+      "command": "click",
+      "target": "id=vrs",
+      "targets": [],
+      "value": "Vodeni led"
+    }, {
+      "id": "9f22a076-8d4c-4218-ac06-76b1d9189bc7",
+      "comment": "",
+      "command": "select",
+      "target": "id=gd",
+      "targets": [
+        ["id=gd", "id"],
+        ["css=#gd", "css:finder"],
+        ["xpath=//select[@id='gd']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/select", "xpath:position"]
+      ],
+      "value": "Ljeto"
+    }, {
+      "id": "9e3fa45b-593d-43e0-8cf5-be3803031d73",
+      "comment": "",
+      "command": "click",
+      "target": "id=gd",
+      "targets": [],
+      "value": "Ljeto"
+    }, {
+      "id": "9f86b5b1-a5e5-44da-a323-c860e0769797",
+      "comment": "",
+      "command": "type",
+      "target": "id=mr",
+      "targets": [
+        ["id=mr", "id"],
+        ["css=#mr", "css:finder"],
+        ["xpath=//input[@id='mr']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "637b779c-2e56-4982-b25f-33a201f32cc5",
+      "comment": "",
+      "command": "type",
+      "target": "id=tp",
+      "targets": [
+        ["id=tp", "id"],
+        ["css=#tp", "css:finder"],
+        ["xpath=//input[@id='tp']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "24"
+    }, {
+      "id": "16a08043-9697-4873-878e-52b3abbe9517",
+      "comment": "",
+      "command": "type",
+      "target": "id=ts",
+      "targets": [
+        ["id=ts", "id"],
+        ["css=#ts", "css:finder"],
+        ["xpath=//input[@id='ts']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "51"
+    }, {
+      "id": "6ce9ded5-e482-42c1-b71b-3bcb84795aeb",
+      "comment": "",
+      "command": "type",
+      "target": "id=tpr",
+      "targets": [
+        ["id=tpr", "id"],
+        ["css=#tpr", "css:finder"],
+        ["xpath=//input[@id='tpr']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25"
+    }, {
+      "id": "839bcb0e-b640-4818-bf84-d7ac980d3954",
+      "comment": "",
+      "command": "select",
+      "target": "id=str",
+      "targets": [
+        ["id=str", "id"],
+        ["css=#str", "css:finder"],
+        ["xpath=//select[@id='str']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": "Svježe voće"
+    }, {
+      "id": "5624d695-e147-4b77-a340-e02ca4901e62",
+      "comment": "",
+      "command": "click",
+      "target": "id=str",
+      "targets": [],
+      "value": "Svježe voće"
+    }, {
+      "id": "12310dc7-f302-4f4d-8ecf-fe4f0481e96d",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b74ef0e-a467-4bba-84f3-c8a7e57ab594",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=vrs",
+      "targets": [],
+      "value": "80"
+    }, {
+      "id": "e5bd1028-97cb-445f-9e2a-879334071dcc",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=gd",
+      "targets": [],
+      "value": "0.06"
+    }, {
+      "id": "b0ba29d5-ea72-4c22-9e74-9a56182f6398",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=mr",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "a48e3a91-05ea-472b-a641-8f5ba6e9c488",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=tp",
+      "targets": [],
+      "value": "24"
+    }, {
+      "id": "06632e17-d3b5-4190-88e4-2f4bee465b95",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=ts",
+      "targets": [
+        ["id=ts", "id"],
+        ["css=#ts", "css:finder"],
+        ["xpath=//input[@id='ts']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "51"
+    }, {
+      "id": "43c0d3d7-0474-4544-bbd9-f67e3b6e3599",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=tpr",
+      "targets": [
+        ["id=tpr", "id"],
+        ["css=#tpr", "css:finder"],
+        ["xpath=//input[@id='tpr']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25"
+    }, {
+      "id": "0dd357de-01a8-471e-8237-803f2cf5d5df",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=str",
+      "targets": [
+        ["id=str", "id"],
+        ["css=#str", "css:finder"],
+        ["xpath=//select[@id='str']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": "0.92"
+    }, {
+      "id": "f3cbcdd1-e9d1-48de-be8e-6db24e51588e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[8]/td/input",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
+        ["xpath=//tr[8]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16143bde-9edb-4609-8ccc-51bf6d6cd180",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1e257e0-b959-46f4-9d62-c029f20ca579",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "749395ca-d6fe-4021-a628-9498ab30fc8b",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Unos nije dozvoljen.\\nDozvoljena vrednost je u rasponu između -50 i +50.",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "271e3357-a3b9-49f5-aa3e-500c3e6e2f56",
@@ -2144,7 +2624,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["35d167b8-0803-4368-a3ce-52e16c9de6ba", "6040aa77-9a9b-4b9a-98b6-0227b4a13824", "255cd247-21ff-4e36-ba22-aa593881f591", "613a3e2e-0bc9-452e-95d1-05620d2f767a", "9784751a-7934-4d64-a6f5-639d64aa45ad", "5f4809b1-db9a-4ce4-a069-e931daa135a9", "803021df-727d-4e00-aed9-7af84b597673", "00186610-01e6-4602-9ac5-90f1cf176cec", "bb67378c-9924-442f-9ddf-f3e6a381b001"]
+    "tests": ["35d167b8-0803-4368-a3ce-52e16c9de6ba", "6040aa77-9a9b-4b9a-98b6-0227b4a13824", "255cd247-21ff-4e36-ba22-aa593881f591", "613a3e2e-0bc9-452e-95d1-05620d2f767a", "9784751a-7934-4d64-a6f5-639d64aa45ad", "5f4809b1-db9a-4ce4-a069-e931daa135a9", "803021df-727d-4e00-aed9-7af84b597673", "00186610-01e6-4602-9ac5-90f1cf176cec", "bb67378c-9924-442f-9ddf-f3e6a381b001", "48145eb7-dce6-4835-a186-b93247c28930", "0bae9000-f304-4ac8-ba71-75fc18b1d64b"]
   }],
   "urls": ["https://sflogistika.dobojcaffe.com/webapp/"],
   "plugins": []
