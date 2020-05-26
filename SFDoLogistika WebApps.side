@@ -690,6 +690,246 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "613a3e2e-0bc9-452e-95d1-05620d2f767a",
+    "name": "LKR_04_Vodeni-led",
+    "commands": [{
+      "id": "e857fa92-5687-4137-9df8-e3e8b5abd1b7",
+      "comment": "",
+      "command": "open",
+      "target": "transport_lkr/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a62713d1-5ad0-4341-a25d-b3e30ed9d660",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66490166-ea50-4c37-9a37-95bb2100b47a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return a=document.getElementById(\"mr\")",
+      "targets": [],
+      "value": "MasaRobe"
+    }, {
+      "id": "4fbe9c1b-cc4c-4d62-ae6f-e6bd03a4897b",
+      "comment": "",
+      "command": "if",
+      "target": "${MasaRobe}!=null",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "103d101c-1bbd-452e-bfd7-652de3828277",
+      "comment": "",
+      "command": "select",
+      "target": "id=vrs",
+      "targets": [
+        ["id=vrs", "id"],
+        ["css=#vrs", "css:finder"],
+        ["xpath=//select[@id='vrs']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "Vodeni led"
+    }, {
+      "id": "1bd4be95-592b-4699-b929-76a423ecd9ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=vrs",
+      "targets": [],
+      "value": "Vodeni led"
+    }, {
+      "id": "7050a2d6-8950-4ba1-bcea-bc43e3e3bdb0",
+      "comment": "",
+      "command": "select",
+      "target": "id=gd",
+      "targets": [
+        ["id=gd", "id"],
+        ["css=#gd", "css:finder"],
+        ["xpath=//select[@id='gd']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/select", "xpath:position"]
+      ],
+      "value": "Ljeto"
+    }, {
+      "id": "4cf2afce-7757-4425-a0fe-db6fd43c922c",
+      "comment": "",
+      "command": "click",
+      "target": "id=gd",
+      "targets": [],
+      "value": "Ljeto"
+    }, {
+      "id": "024ad1ab-c6a6-44a8-98b8-4e755d900582",
+      "comment": "",
+      "command": "type",
+      "target": "id=mr",
+      "targets": [
+        ["id=mr", "id"],
+        ["css=#mr", "css:finder"],
+        ["xpath=//input[@id='mr']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "a70ba039-9a28-4b44-baa2-ef9be92ed58b",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=mr",
+      "targets": [],
+      "value": "0"
+    }, {
+      "id": "a53c1441-bd29-4588-8d05-80f5f1df248f",
+      "comment": "",
+      "command": "type",
+      "target": "id=tp",
+      "targets": [
+        ["id=tp", "id"],
+        ["css=#tp", "css:finder"],
+        ["xpath=//input[@id='tp']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "72"
+    }, {
+      "id": "d5ab34bd-d7b1-4c40-80c7-34df6239c248",
+      "comment": "",
+      "command": "type",
+      "target": "id=ts",
+      "targets": [
+        ["id=ts", "id"],
+        ["css=#ts", "css:finder"],
+        ["xpath=//input[@id='ts']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25"
+    }, {
+      "id": "4fb54888-1796-4eb6-b3f0-1e84b1e8009c",
+      "comment": "",
+      "command": "type",
+      "target": "id=tpr",
+      "targets": [
+        ["id=tpr", "id"],
+        ["css=#tpr", "css:finder"],
+        ["xpath=//input[@id='tpr']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "15"
+    }, {
+      "id": "e62a25be-c0be-42e0-9702-948b7e77e284",
+      "comment": "",
+      "command": "select",
+      "target": "id=str",
+      "targets": [
+        ["id=str", "id"],
+        ["css=#str", "css:finder"],
+        ["xpath=//select[@id='str']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": "Svježe voće"
+    }, {
+      "id": "d849d10b-fd3a-4726-8d9e-089e166f7032",
+      "comment": "",
+      "command": "click",
+      "target": "id=str",
+      "targets": [],
+      "value": "Svježe voće"
+    }, {
+      "id": "373b4706-c87c-4ded-9d82-07624759dd42",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31653e49-0ea9-4461-958b-8ebe8eef5cba",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=vrs",
+      "targets": [],
+      "value": "80"
+    }, {
+      "id": "53ae7809-bccd-4177-a95c-5a78b227054e",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=gd",
+      "targets": [],
+      "value": "0.06"
+    }, {
+      "id": "5a8cd14b-b9be-4c30-ba2f-e643b94f980b",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=tp",
+      "targets": [],
+      "value": "72"
+    }, {
+      "id": "f0ae0dff-2eb7-43a6-ac45-cde9dd7802a4",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=ts",
+      "targets": [
+        ["id=ts", "id"],
+        ["css=#ts", "css:finder"],
+        ["xpath=//input[@id='ts']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25"
+    }, {
+      "id": "d4617afa-397e-4cf6-a949-d1a7d919d295",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=tpr",
+      "targets": [
+        ["id=tpr", "id"],
+        ["css=#tpr", "css:finder"],
+        ["xpath=//input[@id='tpr']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "15"
+    }, {
+      "id": "3edef076-f5b6-4c35-b36e-9903e7226075",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=str",
+      "targets": [
+        ["id=str", "id"],
+        ["css=#str", "css:finder"],
+        ["xpath=//select[@id='str']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": "0.92"
+    }, {
+      "id": "825485f7-d363-4828-8ed4-ba1fa4b31e3f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[8]/td/input",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
+        ["xpath=//tr[8]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9da2075-643b-454b-a94b-d1d2a6abf069",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5caa760-9e5f-4b0c-ac3f-7425f7340000",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "960377df-8bd5-482e-8a15-6d99f61ccdba",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Unos nije dozvoljen.\\nMolimo vas da pažljivo pročitate uputstvo.",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "271e3357-a3b9-49f5-aa3e-500c3e6e2f56",
