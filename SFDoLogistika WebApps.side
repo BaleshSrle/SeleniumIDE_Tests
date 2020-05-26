@@ -944,7 +944,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["35d167b8-0803-4368-a3ce-52e16c9de6ba"]
+    "tests": ["35d167b8-0803-4368-a3ce-52e16c9de6ba", "6040aa77-9a9b-4b9a-98b6-0227b4a13824", "255cd247-21ff-4e36-ba22-aa593881f591", "613a3e2e-0bc9-452e-95d1-05620d2f767a"]
   }],
   "urls": ["https://sflogistika.dobojcaffe.com/webapp/"],
   "plugins": []
