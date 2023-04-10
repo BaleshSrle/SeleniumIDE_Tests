@@ -258,12 +258,8 @@
       "id": "c9c080a2-a82a-4c75-8d02-b2d53d9cd2d4",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
-      "targets": [
-        ["css=.btn", "css:finder"],
-        ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
-        ["xpath=//tr[8]/td/input", "xpath:position"]
-      ],
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -470,7 +466,7 @@
       "id": "62745b74-fbe1-42fb-9a92-ce380252e411",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -682,7 +678,7 @@
       "id": "32f1e48c-2efd-400f-ad56-36b20b3ff34a",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -901,7 +897,7 @@
       "id": "825485f7-d363-4828-8ed4-ba1fa4b31e3f",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -1141,7 +1137,7 @@
       "id": "31445f84-5ad7-4571-9c65-4d61f3652b68",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -1381,7 +1377,7 @@
       "id": "c7d22362-62cb-4cf3-95ae-ea8fbb77128c",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -1621,7 +1617,7 @@
       "id": "5cbecb18-b79f-4921-b0b3-d72f916134c2",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -1861,7 +1857,7 @@
       "id": "9f2b510a-02be-48d3-b509-ef6b6ad49d4a",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -1876,17 +1872,17 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "372a73a5-b057-4289-9ec4-702135df5de4",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "d40551df-3257-4c6e-9f5a-d061fe6ec7b3",
       "comment": "",
       "command": "assertAlert",
       "target": "Unos nije dozvoljen.\\nDozvoljena vrednost je u rasponu između -50 i +50.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "372a73a5-b057-4289-9ec4-702135df5de4",
+      "comment": "",
+      "command": "end",
+      "target": "",
       "targets": [],
       "value": ""
     }]
@@ -2101,7 +2097,7 @@
       "id": "b6bad816-b6f4-4302-b9ef-ea00271851dc",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -2116,17 +2112,17 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "2e208f88-d911-4029-aa30-816c78474640",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "72d69b17-29c3-425b-aa23-f06ab1d2585d",
       "comment": "",
       "command": "assertAlert",
       "target": "Unos nije dozvoljen.\\nDozvoljena vrednost je u rasponu između -50 i +50.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e208f88-d911-4029-aa30-816c78474640",
+      "comment": "",
+      "command": "end",
+      "target": "",
       "targets": [],
       "value": ""
     }]
@@ -2341,7 +2337,7 @@
       "id": "189b8875-367a-41c5-b4e5-08a1c5172d99",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -2356,17 +2352,17 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "bf75d29e-a8b1-4abf-8f56-53bd836904c6",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "bb19acad-603a-416f-83d6-8d88150cc228",
       "comment": "",
       "command": "assertAlert",
       "target": "Unos nije dozvoljen.\\nDozvoljena vrednost je u rasponu između -50 i +50.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf75d29e-a8b1-4abf-8f56-53bd836904c6",
+      "comment": "",
+      "command": "end",
+      "target": "",
       "targets": [],
       "value": ""
     }]
@@ -2581,7 +2577,7 @@
       "id": "f3cbcdd1-e9d1-48de-be8e-6db24e51588e",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[8]/td/input",
+      "target": "xpath=//div/button[text()=\"Izračunaj\"]",
       "targets": [
         ["css=.btn", "css:finder"],
         ["xpath=//input[@value='Izračunaj']", "xpath:attributes"],
@@ -2596,17 +2592,17 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "d1e257e0-b959-46f4-9d62-c029f20ca579",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "749395ca-d6fe-4021-a628-9498ab30fc8b",
       "comment": "",
       "command": "assertAlert",
       "target": "Unos nije dozvoljen.\\nDozvoljena vrednost je u rasponu između -50 i +50.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1e257e0-b959-46f4-9d62-c029f20ca579",
+      "comment": "",
+      "command": "end",
+      "target": "",
       "targets": [],
       "value": ""
     }]
