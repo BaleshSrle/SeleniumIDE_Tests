@@ -84,13 +84,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "7f3a6320-06a4-4825-96a4-2cdd001addcb",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "306356ff-76bf-4ae2-b3ec-99e7b6a3e7f8",
       "comment": "",
       "command": "select",
@@ -101,13 +94,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "b6bfe652-055c-40fa-8710-26ed8593f34d",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "3f6dfddd-3c0e-43e6-962a-a2e26efd96c3",
@@ -168,13 +154,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "5caa2645-e314-4df0-8687-44960f09c3e7",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "5aac2888-1b5e-4e3a-9acf-b1088aa4a01b",
@@ -292,13 +271,6 @@
       ],
       "value": "Suvi led"
     }, {
-      "id": "89ec6b17-8772-43bc-96ee-14ab4bf642e2",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Suvi led"
-    }, {
       "id": "45a2fc52-6e4a-4c89-b8f0-033061f44684",
       "comment": "",
       "command": "select",
@@ -309,13 +281,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "916cd455-8be1-48c4-8121-c2728f894b0d",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "ae866f90-7e7e-4393-8956-91a0ca8ba9f7",
@@ -376,13 +341,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Zaklana živina, margarin"
-    }, {
-      "id": "28742d69-05eb-4831-b7ea-58c3a4c0fc87",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Zaklana živina, margarin"
     }, {
       "id": "0db37b0f-18a1-49d7-84a1-75c37ae2074e",
@@ -504,13 +462,6 @@
       ],
       "value": "Suvi led"
     }, {
-      "id": "4c2b34ad-a63a-4f6e-b1e9-d64ec9433baa",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Suvi led"
-    }, {
       "id": "da22e77c-1d9e-4fd7-919d-6e7c3eaca49e",
       "comment": "",
       "command": "select",
@@ -521,13 +472,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "f46ae0f3-c53f-433a-b95e-982ebdfe1352",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "8117d126-7607-459c-a483-072945e06e1a",
@@ -588,13 +532,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Zaklana živina, margarin"
-    }, {
-      "id": "3556c5b7-2935-4a32-84b2-257ae653243b",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Zaklana živina, margarin"
     }, {
       "id": "c2ce14dd-adc1-4e5f-9a7e-d9367d175006",
@@ -730,13 +667,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "1bd4be95-592b-4699-b929-76a423ecd9ba",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "7050a2d6-8950-4ba1-bcea-bc43e3e3bdb0",
       "comment": "",
       "command": "select",
@@ -747,13 +677,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "4cf2afce-7757-4425-a0fe-db6fd43c922c",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "024ad1ab-c6a6-44a8-98b8-4e755d900582",
@@ -821,13 +744,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "d849d10b-fd3a-4726-8d9e-089e166f7032",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "373b4706-c87c-4ded-9d82-07624759dd42",
@@ -970,13 +886,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "f95aaedc-f0bf-43ce-b3ee-66b8c7dc5b6f",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "fa2ae5b0-1b8c-44cb-92d7-448bbd519de1",
       "comment": "",
       "command": "select",
@@ -987,13 +896,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "f10ebcb0-afb8-4296-aebe-26a8e04c92d3",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "c3e759cb-53f2-4f19-a91a-468fc26b0128",
@@ -1054,13 +956,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "37d8e8d4-3f84-4da1-ac0d-47fc7a312351",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "7b543bf9-d0f8-49a8-9563-29b1ea0a267d",
@@ -1210,13 +1105,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "7c15e8ea-1b52-4fad-815d-fce3612d9371",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "b5da5bc9-6fab-4061-b7d9-ac31c2eec42d",
       "comment": "",
       "command": "select",
@@ -1227,13 +1115,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "af9dc2cf-b204-42c7-9c26-afa6b1e9ed9f",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "d2e2dccb-a410-421d-8a65-9bfc7e3ed6bd",
@@ -1294,13 +1175,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "8566364b-b6be-4bb3-a749-1467df914d73",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "9d9b1cfc-bae0-4824-8c9a-5b93899e201a",
@@ -1450,13 +1324,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "b2d28061-1c3f-4257-9e13-ab5814018592",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "7a5b4084-2bb1-473b-bf9a-4b47c6fa15c6",
       "comment": "",
       "command": "select",
@@ -1467,13 +1334,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "00e3d88f-c1c2-4e12-8478-92e914711931",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "50b3bde3-7aa1-44e2-8cf8-4c251903efe8",
@@ -1534,13 +1394,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "a4b269cf-79b5-4381-85df-755aa7bd90c0",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "99630996-05ad-46c8-8674-76b682e4620a",
@@ -1690,13 +1543,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "68caccb5-91b8-488f-b87c-a48ee0f5f57b",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "737969e7-db79-4e5e-88eb-32fbc8617326",
       "comment": "",
       "command": "select",
@@ -1707,13 +1553,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "148d3ff2-933e-40b9-98f1-60513c523f0f",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "8f2bae4d-819a-4242-badd-1382ee3e16c4",
@@ -1774,13 +1613,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "56478f3c-32f4-4051-8621-09b319c9122c",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "37dcfe67-5453-4419-940e-099a7e02f17a",
@@ -1930,13 +1762,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "de74b1f6-8fba-40a8-9080-2e60ff76c616",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "3b512901-307d-4e9e-b66a-19d9626bcbe7",
       "comment": "",
       "command": "select",
@@ -1947,13 +1772,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "4c770fc1-d99e-4f27-9f36-e6b17a831305",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "5ef30746-f5ec-4f24-aba0-31afde7f8eb6",
@@ -2014,13 +1832,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "bcd20aee-a96f-4cbd-8c0c-abcdedbb9aec",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "c648b9f9-84c9-4a8f-a921-1ee825d57d60",
@@ -2170,13 +1981,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "42c5f4f7-07f3-4281-bed2-d05b309fa526",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "27fa7de6-f490-4b50-aac2-88c38b80f288",
       "comment": "",
       "command": "select",
@@ -2187,13 +1991,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "8697a1cd-8d04-408e-9396-e14008eb563a",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "bd471176-fe06-4b1a-ac4f-bda6256367be",
@@ -2254,13 +2051,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "fce2d34d-9c8a-4153-9067-22104c19bb69",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "f184dc43-196b-4596-a8c1-dafe1dcde349",
@@ -2410,13 +2200,6 @@
       ],
       "value": "Vodeni led"
     }, {
-      "id": "ec75d212-d8b2-4988-a706-6a1f7fb6ef75",
-      "comment": "",
-      "command": "click",
-      "target": "id=vrs",
-      "targets": [],
-      "value": "Vodeni led"
-    }, {
       "id": "9f22a076-8d4c-4218-ac06-76b1d9189bc7",
       "comment": "",
       "command": "select",
@@ -2427,13 +2210,6 @@
         ["xpath=//select[@id='gd']", "xpath:attributes"],
         ["xpath=//tr[2]/td[2]/select", "xpath:position"]
       ],
-      "value": "Ljeto"
-    }, {
-      "id": "9e3fa45b-593d-43e0-8cf5-be3803031d73",
-      "comment": "",
-      "command": "click",
-      "target": "id=gd",
-      "targets": [],
       "value": "Ljeto"
     }, {
       "id": "9f86b5b1-a5e5-44da-a323-c860e0769797",
@@ -2494,13 +2270,6 @@
         ["xpath=//select[@id='str']", "xpath:attributes"],
         ["xpath=//tr[7]/td[2]/select", "xpath:position"]
       ],
-      "value": "Svježe voće"
-    }, {
-      "id": "5624d695-e147-4b77-a340-e02ca4901e62",
-      "comment": "",
-      "command": "click",
-      "target": "id=str",
-      "targets": [],
       "value": "Svježe voće"
     }, {
       "id": "12310dc7-f302-4f4d-8ecf-fe4f0481e96d",
